@@ -95,7 +95,7 @@ const Hero = () => {
                 {/*image contaioner*/}
                 <div className="relative rounded-2xl overflow-hidden m-[1px] h-[calc(100%-2px)]">
                   <img
-                    src="/developer-portrait1.jpg"
+                    src="./developer-portrait1.jpg"
                     alt="Developer at work"
                     className="w-full h-full object-cover"
                   />

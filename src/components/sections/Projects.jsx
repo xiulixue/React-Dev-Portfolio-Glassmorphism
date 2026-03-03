@@ -91,7 +91,7 @@ const Projects = () => {
           </div>
         </FadeIn>
 
-        {/*catefory filter*/}
+        {/*category filter*/}
         <FadeIn delay={100}>
           <div className="flex flex-wrap justify-center gap-3 mb-16">
             {categories.map((category) => (

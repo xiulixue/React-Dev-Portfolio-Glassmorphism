@@ -21,14 +21,14 @@ export const PERSONAL_INFO = {
 
 export const SOCIAL_LINKS = {
   github: 'http://github.com',
-  linkedin: 'http://linkedin.com',
+  linkedin: 'https://github.com/xiulixue',
   twitter: 'http://x.com',
   wechat: 'http://wechat.com',
 };
 
 export const STATS = [
   { label: 'Years Experience', value: '3+' },
-  { label: 'Project Completed', value: '2+' },
+  { label: 'Project Completed', value: '3+' },
   { label: 'Technologies', value: '5+' },
   { label: 'Client Satisfaction', value: '98%' },
 ];
@@ -40,7 +40,7 @@ export const ABOUT_STATS = [
 ];
 
 export const ABOUT_REVIEWS = [
-  { label: 'Can-do Altitude', content: '100%' },
+  { label: 'Can-do Altitude', content: 'Communication' },
   { label: 'Fast Learner', content: 'Fast' },
   { label: 'Cooperative Spirit', content: 'Teamwork' },
 ];
