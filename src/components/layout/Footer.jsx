@@ -5,8 +5,8 @@ import { PERSONAL_INFO, SOCIAL_LINKS, NAV_LINKS } from '../../utils/constants';
 import {
   Github,
   Linkedin,
-  Twitter,
-  Dribbble,
+  Instagram,
+  
   Mail,
   MapPin,
   Heart,
@@ -18,8 +18,7 @@ const Footer = () => {
   const socialIcons = {
     github: Github,
     linkedin: Linkedin,
-    twitter: Twitter,
-    dribble: Dribbble,
+    instagram: Instagram,
   };
 
   return (

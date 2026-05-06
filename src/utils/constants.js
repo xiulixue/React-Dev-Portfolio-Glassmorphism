@@ -3,7 +3,7 @@
 export const PERSONAL_INFO = {
   name: 'Murphy Xue',
   title: 'Web Developer ',
-  profession: 'Full Stack Developer Portfolio',
+  profession: 'Murphy Xue -- Full Stack Developer Portfolio',
   email: 'xuemurphy@gmail.com',
   location: 'Sydney, AU',
   tagline: 'experience with modern web technologies',
@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
     'Building modern, scalable, responsive web application with React TypeScript and cutting-edge technologies.',
   resume: '/resume.pdf',
   bio: [
-    'I am a passinate React developer with over 3 yearProficient in building dynamic, responsive user interfaces using React, JavaScript, and Tailwind CSS. Experienced in developing robust back-end services and APIs with C# and the .NET framework. Eager to contribute to a collaborative team environment, tackle new challenges, and continue growing technical expertise while delivering high-quality, user-centric web applications. ',
+    'I am a passinate React developer with over 3 year. Proficient in building dynamic, responsive user interfaces using React, JavaScript, and Tailwind CSS. Experienced in developing robust back-end services and APIs with C# and the .NET framework. Eager to contribute to a collaborative team environment, tackle new challenges, and continue growing technical expertise while delivering high-quality, user-centric web applications. ',
   ],
   summary:
     'An aspiring Full-stack Developer with a solid foundation in .NET Core and React. Transitioning from a background in professional administration and web content production, I bring a unique blend of technical problem-solving and business-centric thinking. I am passionate about building robust, scalable web applications that deliver seamless user experiences.',
@@ -20,15 +20,15 @@ export const PERSONAL_INFO = {
 };
 
 export const SOCIAL_LINKS = {
-  github: 'http://github.com',
+  github: 'https://github.com/xiulixue',
+  link:'https://xiulixue.github.io/React-Dev-Portfolio-Glassmorphism/',
   linkedin: 'https://github.com/xiulixue',
-  twitter: 'http://x.com',
-  wechat: 'http://wechat.com',
+  instagram: 'http://instagram.com/x85885',
 };
 
 export const STATS = [
   { label: 'Years Experience', value: '3+' },
-  { label: 'Project Completed', value: '3+' },
+  { label: 'Project Completed', value: '5+' },
   { label: 'Technologies', value: '5+' },
   { label: 'Client Satisfaction', value: '98%' },
 ];
@@ -40,7 +40,7 @@ export const ABOUT_STATS = [
 ];
 
 export const ABOUT_REVIEWS = [
-  { label: 'Can-do Altitude', content: 'Communication' },
+  { label: 'Can-do Altitude', content: 'Altitude' },
   { label: 'Fast Learner', content: 'Fast' },
   { label: 'Cooperative Spirit', content: 'Teamwork' },
 ];
@@ -65,6 +65,6 @@ export const NAV_LINKS = [
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
-  { id: 'services', label: 'Services' },
+ /* { id: 'services', label: 'Services' },*/
   { id: 'contact', label: 'Contact' },
 ];

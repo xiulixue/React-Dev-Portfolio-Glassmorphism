@@ -6,7 +6,8 @@ import {
   MapPin,
   Github,
   Linkedin,
-  Twitter,
+  Instagram,
+  Link,
   Send,
   MessageSquare,
 } from 'lucide-react';
@@ -72,8 +73,9 @@ const Contact = () => {
 
   const socialIcons = {
     github: Github,
+    link: Link,
     linkedin: Linkedin,
-    twitter: Twitter,
+    instagram: Instagram,
   };
 
   return (
@@ -261,7 +263,7 @@ const Contact = () => {
                 <p className="text-sm text-white/60 mb-4">Connect with me</p>
                 <div className="flex gap-4">
                   {Object.entries(SOCIAL_LINKS)
-                    .slice(0, 3)
+                    .slice(0, 4)
                     .map(([platform, url]) => {
                       const Icon = socialIcons[platform];
                       return Icon ? (
