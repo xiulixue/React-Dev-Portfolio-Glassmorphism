@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   tagline: 'experience with modern web technologies',
   description:
     'Building modern, scalable, responsive web application with React TypeScript and cutting-edge technologies.',
-  resume: '/resume.pdf',
+  resume: 'resume.pdf',
   bio: [
     'I am a passinate React developer with over 3 year. Proficient in building dynamic, responsive user interfaces using React, JavaScript, and Tailwind CSS. Experienced in developing robust back-end services and APIs with C# and the .NET framework. Eager to contribute to a collaborative team environment, tackle new challenges, and continue growing technical expertise while delivering high-quality, user-centric web applications. ',
   ],
@@ -21,7 +21,7 @@ export const PERSONAL_INFO = {
 
 export const SOCIAL_LINKS = {
   github: 'https://github.com/xiulixue',
-  link:'https://xiulixue.github.io/React-Dev-Portfolio-Glassmorphism/',
+  link: 'https://xiulixue.github.io/React-Dev-Portfolio-Glassmorphism/',
   linkedin: 'https://github.com/xiulixue',
   instagram: 'http://instagram.com/x85885',
 };
@@ -65,6 +65,6 @@ export const NAV_LINKS = [
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
- /* { id: 'services', label: 'Services' },*/
+  /* { id: 'services', label: 'Services' },*/
   { id: 'contact', label: 'Contact' },
 ];
