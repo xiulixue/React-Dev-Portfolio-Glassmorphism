@@ -25,7 +25,7 @@ export const projects = [
     id: 3,
     title: 'My Portfolio',
     image: './images/projects/project3.jpg',
-    category: 'Web Apps',
+    category: 'React Apps',
     technologies: ['React'],
     metrics: '40% increase in conversation',
     demoUrl: 'https://xiulixue.github.io/React-Dev-Portfolio-Glassmorphism/',
