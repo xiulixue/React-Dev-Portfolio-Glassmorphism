@@ -3,44 +3,42 @@
 import React from 'react';
 
 const RadialGradientBackground = ({ variant = 'hero', gradients = [] }) => {
+  const cyanColors = [
+    { color: 'rgba(0, 255, 242, 0.3)', stop: '100%' },
+    { color: 'rgba(0, 200, 255, 0.5)', stop: '100%' },
+    { color: 'rgba(100, 255, 218, 0.6)', stop: '100%' },
+    { color: 'rgba(0, 212, 255, 0.5)', stop: '100%' },
+    { color: 'rgba(0, 255, 242, 0.3)', stop: '100%' },
+  ];
+
+  const darkColors = [
+    { color: 'rgba(141,255,105,0.25)', stop: '100%' },
+    { color: 'rgba(141,255,105,0.45)', stop: '100%' },
+    { color: 'rgba(141,255,105,0.5)', stop: '100%' },
+    { color: 'rgba(141,255,105,0.45)', stop: '100%' },
+    { color: 'rgba(141,255,105,0.25)', stop: '100%' },
+  ];
+
   const variants = {
     hero: [
       {
         position: 'top-1 left-1 -translate-x-1/2 -translate-y-1/2',
         size: 'w-[1400px] h-[1400px]',
-        colors: [
-          { color: 'rgba(141,255,105,0.25)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.45)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.5)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.45)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.25)', stop: '100%' },
-        ],
+        colors: darkColors,
         blur: '0px',
         opacity: 0.5,
       },
       {
         position: 'top-1 left-1',
         size: 'w-[1400px] h-[1400px]',
-        colors: [
-          { color: 'rgba(141,255,105,0.25)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.45)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.5)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.45)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.25)', stop: '100%' },
-        ],
+        colors: darkColors,
         blur: '0px',
         opacity: 0.5,
       },
       {
         position: 'bottom-1 right-1',
         size: 'w-[1400px] h-[1400px]',
-        colors: [
-          { color: 'rgba(141,255,105,0.25)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.45)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.5)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.45)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.25)', stop: '100%' },
-        ],
+        colors: darkColors,
         blur: '0px',
         opacity: 0.5,
       },
@@ -49,13 +47,7 @@ const RadialGradientBackground = ({ variant = 'hero', gradients = [] }) => {
       {
         position: 'bottom-0 left-[75%]',
         size: 'w-[700px] h-[700px]',
-        colors: [
-          { color: 'rgba(141,255,105,0.25)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.45)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.5)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.45)', stop: '100%' },
-          { color: 'rgba(141,255,105,0.25)', stop: '100%' },
-        ],
+        colors: darkColors,
         blur: '0px',
         opacity: 0.5,
       },
