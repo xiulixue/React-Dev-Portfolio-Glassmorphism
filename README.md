@@ -89,7 +89,7 @@ react-dev-portfolio
 
 ## Run the application
 
-3. Run `[npm run dev]` (This will start the website on the address [http://localhost:3000](http://localhost:5173/React-Dev-Portfolio-Glassmorphism/)
+3. Run `[npm run dev]` (This will start the website on the address [http://localhost:5173](http://localhost:5173/React-Dev-Portfolio-Glassmorphism/)
 
 ## Test
 
