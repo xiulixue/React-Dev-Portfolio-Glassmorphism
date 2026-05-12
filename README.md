@@ -5,7 +5,6 @@ This is my personal website. A single front-end website built by React app with 
 
 ## Preview
 
-![preview](https://user-images.githubusercontent.com/106227623/212909236-8d8cba19-3c3d-4d0e-bf37-808fc30475c2.jpg)
 <img width="2466" height="1368" alt="project3" src="https://github.com/user-attachments/assets/e1d50a4a-84e1-471f-904d-73e65ab5114c" />
 
 
