@@ -1,32 +1,113 @@
-<!-- @format -->
 
-# React + Vite
+# Xiuli's-Website <a href="https://xiulixue.github.io/React-Dev-Portfolio-Glassmorphism/">Demo Link</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and
-some ESLint rules.
+This is my personal website. A single front-end website built by React app with user friendly navigation system.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react)
-  uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in
-  [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc)
-  uses [SWC](https://swc.rs/) for Fast Refresh
+![preview](https://user-images.githubusercontent.com/106227623/212909236-8d8cba19-3c3d-4d0e-bf37-808fc30475c2.jpg)
+<img width="2466" height="1368" alt="project3" src="https://github.com/user-attachments/assets/e1d50a4a-84e1-471f-904d-73e65ab5114c" />
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev
-& build performances. To add it, see
-[this documentation](https://react.dev/learn/react-compiler/installation).
+## Sections
 
-## Expanding the ESLint configuration
+✔️ Header
+✔️ Nav
+✔️ Hero
+✔️ About-Me
+✔️ Project
+✔️ Skills
+✔️ Contact-Me
+✔️ Footer
 
-If you are developing a production application, we recommend using TypeScript
-with type-aware lint rules enabled. Check out the
-[TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)
-for information on how to integrate TypeScript and
-[`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Structure
 
-# Test
+```bash
+.
+react-dev-portfolio
+├── README.md
+├── index.html
+├── public
+│   ├── images
+│   │   ├── projects
+│   │   └── testimonials
+│   ├── resume.pdf
+│   └── vite.svg
+├── src
+│   ├── App.jsx
+│   ├── __tests__
+│   ├── assets
+│   ├── components
+│   │   ├── animations
+│   │   │   ├── FadeIn.jsx
+│   │   │   └── ScrollReveal.jsx
+│   │   ├── backgrounds
+│   │   │   └── RadialGradientBackground.jsx
+│   │   ├── layout
+│   │   │   ├── Footer.jsx
+│   │   │   └── Navbar.jsx
+│   │   ├── sections
+│   │   │   ├── About.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Projects.jsx
+│   │   │   ├── Services.jsx
+│   │   │   ├── Skills.jsx
+│   │   │   └── Testimonials.jsx
+│   │   └── ui
+│   │       ├── Card.jsx
+│   │       └── ProjectCard.jsx
+│   ├── data
+│   │   ├── projects.js
+│   │   ├── services.js
+│   │   ├── skills.js
+│   │   └── testimonials.js
+│   ├── hooks
+│   │   ├── useScrollReveal.js
+│   │   └── useScrollSpy.js
+│   ├── index.css
+│   ├── main.jsx
+│   └── utils
+│       └── constants.js
+└── vite.config.js
+```
 
-Run "npm test" to see the full test suite for form validation.
+## Technologies used
+
+<ul>
+  <li>React</li>
+  <li>Vite</li>
+  <li>JavaScript</li>
+  <li>TailwindCSS</li>
+  <li>VS Code</li>
+</ul>
+
+## Getting started
+
+1. Clone the repo to your local `[git clone https://github.com/xiulixue/xiulixue-website](https://xiulixue.github.io/React-Dev-Portfolio-Glassmorphism.git]`
+
+2. Install the dependencies `[npm install]`
+
+## Run the application
+
+3. Run `[npm run dev]` (This will start the website on the address [http://localhost:3000](http://localhost:5173/React-Dev-Portfolio-Glassmorphism/)
+
+## Test
+
+4. Run "npm test" to see the full test suite for form validation.
+
+## Deploy the application
+5. Deploy the application via this instruction <a href="https://blog.logrocket.com/deploying-react-apps-github-pages/"> Deploying React apps to GitHub Pages </a>
+
+## Thanks
+
+If you like this website don't forget give it a ⭐ and also feel free to share feedback with me [here](mailto:xuemurphy@gmail.com).
+
+If you would like to communicate web development skills with me, feel free to contact me via:
+
+#### Facebook: `[X Murphy Xue]`
+
+#### Wechat: `[POINTME61]`
+
+#### Discord: `[xiuli.xue#1784]`
+
